@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup radioGroup;
     private RadioButton radioButton,radioButton1;
     private Button next;
+    private Button next2;
     Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +32,18 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(context, Main2Activity.class);
                     startActivity(intent);
                 }else if(radioButton1.isChecked()){
-                    Intent intent = new Intent(context, Main2Activity.class);
+                    Intent intent = new Intent(context, Main3Activity.class);
                     startActivity(intent);
                 }
 
+            }
+        });
+        next2 = (Button) findViewById(R.id.button2);
+        next2.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Welcome.myNotification(context);
             }
         });
     }
