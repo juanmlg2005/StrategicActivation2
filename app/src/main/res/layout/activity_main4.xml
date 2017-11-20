@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81d4fa"
+    tools:context="com.example.juanmanuel.strategicactivation.Main4Activity">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:text="Chronometer"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:background="#b3e5fc"
+            android:backgroundTint="#29b6f6"
+            android:text="Iniciar cronómetro"
+            android:textSize="24sp"
+            android:layout_below="@+id/chronometer1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:background="#29b6f6"
+            android:text="Detener cronómetro"
+            android:textSize="24sp"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            android:background="#29b6f6"
+            android:text="Resetear cronómetro"
+            android:textSize="24sp"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

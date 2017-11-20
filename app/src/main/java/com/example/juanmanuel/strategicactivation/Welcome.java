@@ -12,6 +12,16 @@ public class Welcome {
 
     public static void myWelcome(Context context) {
         /* Show Message at APK Opend */
-        Toast.makeText(context, "Bienvenido a Strategic Activation",Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Bienvenido a Strategic Activation",Toast.LENGTH_LONG).show();
+    }
+    public static void myNotification(Context context){
+         /* Show Message at APK Opend */
+        Toast.makeText(context, "Notificacion Activada",Toast.LENGTH_SHORT).show();
+
+    }
+    public static void DisableNotification(Context context){
+         /* Show Message at APK Opend */
+        Toast.makeText(context, "Notificacion Desactivada",Toast.LENGTH_SHORT).show();
     }
 }
+
