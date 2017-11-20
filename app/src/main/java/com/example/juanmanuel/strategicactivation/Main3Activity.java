@@ -44,6 +44,7 @@ public class Main3Activity extends AppCompatActivity {
                     case 0:
                         Intent newActivity0 = new Intent(Main3Activity.this, OBrazos.class);
                         startActivity(newActivity0);
+                        break;
                     case 1:
                         Intent newActivity1 = new Intent(Main3Activity.this, Ocabeza.class);
                         startActivity(newActivity1);
