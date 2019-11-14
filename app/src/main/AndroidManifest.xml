@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.juanmanuel.strategicactivation">
 
+    <receiver
+        android:name="com.example.alarmexample.ExampleBroadcastReceiver"
+        android:enabled="true"></receiver>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +20,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".IndustriaBrazos" />
+        <activity android:name=".Industriacabeza" />
+        <activity android:name=".Icuello" />
+        <activity android:name=".Iespalda" />
+        <activity android:name=".Imanos" />
+        <activity android:name=".Iojo" />
+        <activity android:name=".Ipierna" />
+        <activity android:name=".Irelajacion" />
+        <activity android:name=".OBrazos" />
+        <activity android:name=".Ocabeza" />
+        <activity android:name=".Ocuello" />
+        <activity android:name=".Oespalda" />
+        <activity android:name=".Omanos" />
+        <activity android:name=".Oojos" />
+        <activity android:name=".Opierna" />
+        <activity android:name=".Ohombro" />
+        <activity android:name=".MyService" />
+        <activity android:name=".Main4Activity"></activity>
     </application>
 
 </manifest>
